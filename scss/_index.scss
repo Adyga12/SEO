@@ -1,0 +1,16 @@
+section { 
+    height: 10vh;
+    width: 100%;
+    display: flex;
+
+img{
+    height: 1cm;
+ }
+}
+.text{
+    color: $primary-color;
+}
+button{
+    color: $primary-color;
+    border: 2px solid $primary-color;
+}
