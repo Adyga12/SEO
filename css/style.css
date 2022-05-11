@@ -4,6 +4,10 @@
   box-sizing: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 nav {
   height: 10vh;
   width: 100%;
@@ -27,6 +31,37 @@ nav a {
 }
 nav a:hover {
   color: black;
+}
+
+section {
+  padding: 1cm;
+  display: flex;
+}
+section img {
+  height: 25cm;
+  width: 100%;
+}
+
+section {
+  display: grid;
+}
+section div {
+  text-align: center;
+}
+section h2 {
+  font-size: 1.3cm;
+  font-variant: bold;
+}
+
+div {
+  align-content: center;
+}
+div .social-icons {
+  height: 0.5cm;
+}
+div .fab {
+  padding: 0.2cm;
+  color: chocolate;
 }
 
 .text {

@@ -1,12 +1,35 @@
+@import "mixins";
 section { 
-    height: 10vh;
-    width: 100%;
+    padding: 1cm;
     display: flex;
 
-img{
-    height: 1cm;
- }
+img{ 
+    @include main-img;
+ 
 }
+}
+section{ 
+    display: grid;
+div{
+    text-align: center;
+}
+h2 {
+    font-size: 1.3cm;
+    font-variant: bold;
+}
+}
+div{
+    align-content: center;
+.social-icons {
+    height: .5cm; 
+}
+.fab{
+    padding: .2cm;
+    color: $primary-color;
+}
+    }
+        
+
 .text{
     color: $primary-color;
 }
