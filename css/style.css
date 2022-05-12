@@ -52,6 +52,10 @@ section h2 {
   font-size: 1.3cm;
   font-variant: bold;
 }
+section .menu {
+  height: 100%;
+  width: 30cm;
+}
 
 div {
   align-content: center;
